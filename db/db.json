@@ -1,0 +1,142 @@
+{
+  "developers": [
+    {
+      "id": 1,
+      "ProfileId": "123",
+      "firstName": "Juan",
+      "lastName": "Perez",
+      "email": "juan.perez@example.com",
+      "description": "Desarrollador web con 5 años de experiencia.",
+      "country": "Perú",
+      "phone": "+51 987654321",
+      "completedProjects": 14,
+      "specialties": "JavaScript, Node.js, React",
+      "profileImgUrl": "https://via.placeholder.com/150",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "ProfileId": "456",
+      "firstName": "Carlos",
+      "lastName": "Beltran",
+      "email": "carlos.beltran@example.com",
+      "description": "Desarrollador móvil especializado en Flutter.",
+      "country": "Argentina",
+      "phone": "+54 987654321",
+      "completedProjects": 23,
+      "specialties": "Dart, Kotlin, Swift",
+      "profileImgUrl": "https://via.placeholder.com/150",
+      "userId": 2
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Pagina web de Comida",
+      "description": "Plataforma para pedidos online de comida rápida y hamburguesas.",
+      "state": "EN_DESARROLLO",
+      "progress": 60,
+      "languages": ["JavaScript", "HTML", "CSS"],
+      "frameworks": ["Vue.js", "Bootstrap"],
+      "type": "LANDING_PAGE",
+      "budget": "$5000",
+      "methodologies": "SCRUM",
+      "company": {
+        "companyName": "Burger King",
+        "profileImgUrl": "https://via.placeholder.com/150",
+        "country": "Estados Unidos"
+      },
+      "developer": { "id": 1, "firstName": "Juan", "lastName": "Perez" }
+    },
+    {
+      "id": 2,
+      "name": "Sistema de Gestión de Alumnos",
+      "description": "Sistema completo para gestionar alumnos y cursos en academias.",
+      "state": "COMPLETADO",
+      "progress": 100,
+      "languages": ["Java", "SQL"],
+      "frameworks": ["Spring Boot", "Hibernate"],
+      "type": "WEB_APP",
+      "budget": "$8000",
+      "methodologies": "KANBAN",
+      "company": {
+        "companyName": "Academia XYZ",
+        "profileImgUrl": "https://via.placeholder.com/150",
+        "country": "España"
+      },
+      "developer": { "id": 2, "firstName": "Carlos", "lastName": "Beltran" }
+    },
+    {
+      "id": 3,
+      "name": "Aplicación de Ventas Online",
+      "description": "E-commerce para venta de ropa y accesorios.",
+      "state": "EN_BUSQUEDA",
+      "progress": 0,
+      "languages": ["Python", "JavaScript"],
+      "frameworks": ["Django", "React"],
+      "type": "ECOMMERCE",
+      "budget": "$7000",
+      "methodologies": "XP",
+      "company": {
+        "companyName": "ModaShop",
+        "profileImgUrl": "https://via.placeholder.com/150",
+        "country": "Perú"
+      },
+      "developer": { "id": 1, "firstName": "Juan", "lastName": "Perez" }
+    },
+    {
+      "id": 4,
+      "name": "Juego de Ajedrez Online",
+      "description": "Aplicación para jugar partidas de ajedrez con usuarios en tiempo real.",
+      "state": "EN_DESARROLLO",
+      "progress": 80,
+      "languages": ["C#", "JavaScript"],
+      "frameworks": ["Unity", "Node.js"],
+      "type": "GAME",
+      "budget": "$10000",
+      "methodologies": "SCRUM",
+      "company": {
+        "companyName": "AjedrezMaster",
+        "profileImgUrl": "https://via.placeholder.com/150",
+        "country": "México"
+      },
+      "developer": { "id": 2, "firstName": "Carlos", "lastName": "Beltran" }
+    },
+    {
+      "id": 5,
+      "name": "Sistema de Reservas de Hoteles",
+      "description": "Permite gestionar reservas de habitaciones y check-ins.",
+      "state": "EN_BUSQUEDA",
+      "progress": 0,
+      "languages": ["PHP", "MySQL"],
+      "frameworks": ["Laravel"],
+      "type": "WEB_APP",
+      "budget": "$6000",
+      "methodologies": "SCRUM",
+      "company": {
+        "companyName": "HotelExpress",
+        "profileImgUrl": "https://via.placeholder.com/150",
+        "country": "Argentina"
+      },
+      "developer": { "id": 3, "firstName": "Pedro", "lastName": "Segovia" }
+    },
+    {
+      "id": 6,
+      "name": "Dashboard de Análisis de Datos",
+      "description": "Dashboard para visualizar métricas de negocios en tiempo real.",
+      "state": "COMPLETADO",
+      "progress": 100,
+      "languages": ["Python", "JavaScript"],
+      "frameworks": ["Dash", "Plotly"],
+      "type": "DATA_ANALYSIS",
+      "budget": "$12000",
+      "methodologies": "KANBAN",
+      "company": {
+        "companyName": "DataCorp",
+        "profileImgUrl": "https://via.placeholder.com/150",
+        "country": "Colombia"
+      },
+      "developer": { "id": 3, "firstName": "Pedro", "lastName": "Segovia" }
+    }
+  ]
+}
